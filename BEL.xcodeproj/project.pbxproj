@@ -25,6 +25,14 @@
 		EEF2AC6918D125AA00274775 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF2AC4118D125AA00274775 /* UIKit.framework */; };
 		EEF2AC7118D125AA00274775 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEF2AC6F18D125AA00274775 /* InfoPlist.strings */; };
 		EEF2AC7318D125AA00274775 /* BELTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2AC7218D125AA00274775 /* BELTests.m */; };
+		EEF2AC7F18D126AC00274775 /* HorizontalParallaxScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2AC7E18D126AC00274775 /* HorizontalParallaxScene.m */; };
+		EEF2AC8518D126C700274775 /* STParallaxNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2AC8118D126C700274775 /* STParallaxNode.m */; };
+		EEF2AC8618D126C700274775 /* STParallaxNodeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2AC8318D126C700274775 /* STParallaxNodeLayer.m */; };
+		EEF2AC9318D1270800274775 /* STControlNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2AC8A18D1270800274775 /* STControlNode.m */; };
+		EEF2AC9418D1270800274775 /* STControlSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2AC8C18D1270800274775 /* STControlSprite.m */; };
+		EEF2AC9518D1270800274775 /* SKNode+STAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2AC8E18D1270800274775 /* SKNode+STAdditions.m */; };
+		EEF2AC9618D1270800274775 /* SKEmitterNode+STAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2AC9018D1270800274775 /* SKEmitterNode+STAdditions.m */; };
+		EEF2AC9718D1270800274775 /* SKScene+STAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2AC9218D1270800274775 /* SKScene+STAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +70,25 @@
 		EEF2AC6E18D125AA00274775 /* BELTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BELTests-Info.plist"; sourceTree = "<group>"; };
 		EEF2AC7018D125AA00274775 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EEF2AC7218D125AA00274775 /* BELTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BELTests.m; sourceTree = "<group>"; };
+		EEF2AC7D18D126AC00274775 /* HorizontalParallaxScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalParallaxScene.h; sourceTree = "<group>"; };
+		EEF2AC7E18D126AC00274775 /* HorizontalParallaxScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalParallaxScene.m; sourceTree = "<group>"; };
+		EEF2AC8018D126C700274775 /* STParallaxNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STParallaxNode.h; sourceTree = "<group>"; };
+		EEF2AC8118D126C700274775 /* STParallaxNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STParallaxNode.m; sourceTree = "<group>"; };
+		EEF2AC8218D126C700274775 /* STParallaxNodeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STParallaxNodeLayer.h; sourceTree = "<group>"; };
+		EEF2AC8318D126C700274775 /* STParallaxNodeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STParallaxNodeLayer.m; sourceTree = "<group>"; };
+		EEF2AC8418D126C700274775 /* STParallaxNodeLayer_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STParallaxNodeLayer_private.h; sourceTree = "<group>"; };
+		EEF2AC8718D126DD00274775 /* STSpriteKitUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSpriteKitUtils.h; sourceTree = "<group>"; };
+		EEF2AC8818D1270800274775 /* STSpriteKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSpriteKit.h; sourceTree = "<group>"; };
+		EEF2AC8918D1270800274775 /* STControlNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STControlNode.h; sourceTree = "<group>"; };
+		EEF2AC8A18D1270800274775 /* STControlNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STControlNode.m; sourceTree = "<group>"; };
+		EEF2AC8B18D1270800274775 /* STControlSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STControlSprite.h; sourceTree = "<group>"; };
+		EEF2AC8C18D1270800274775 /* STControlSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STControlSprite.m; sourceTree = "<group>"; };
+		EEF2AC8D18D1270800274775 /* SKNode+STAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+STAdditions.h"; sourceTree = "<group>"; };
+		EEF2AC8E18D1270800274775 /* SKNode+STAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+STAdditions.m"; sourceTree = "<group>"; };
+		EEF2AC8F18D1270800274775 /* SKEmitterNode+STAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKEmitterNode+STAdditions.h"; sourceTree = "<group>"; };
+		EEF2AC9018D1270800274775 /* SKEmitterNode+STAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKEmitterNode+STAdditions.m"; sourceTree = "<group>"; };
+		EEF2AC9118D1270800274775 /* SKScene+STAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKScene+STAdditions.h"; sourceTree = "<group>"; };
+		EEF2AC9218D1270800274775 /* SKScene+STAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKScene+STAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +150,7 @@
 		EEF2AC4518D125AA00274775 /* BEL */ = {
 			isa = PBXGroup;
 			children = (
+				EEF2AC7C18D1268700274775 /* 3rdPartyLibs */,
 				EEF2AC4E18D125AA00274775 /* AppDelegate.h */,
 				EEF2AC4F18D125AA00274775 /* AppDelegate.m */,
 				EEF2AC5118D125AA00274775 /* Main_iPhone.storyboard */,
@@ -165,6 +193,40 @@
 				EEF2AC6F18D125AA00274775 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEF2AC7C18D1268700274775 /* 3rdPartyLibs */ = {
+			isa = PBXGroup;
+			children = (
+				EEF2AC9818D1277000274775 /* STSpriteKit */,
+			);
+			name = 3rdPartyLibs;
+			sourceTree = "<group>";
+		};
+		EEF2AC9818D1277000274775 /* STSpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				EEF2AC8818D1270800274775 /* STSpriteKit.h */,
+				EEF2AC8918D1270800274775 /* STControlNode.h */,
+				EEF2AC8A18D1270800274775 /* STControlNode.m */,
+				EEF2AC8B18D1270800274775 /* STControlSprite.h */,
+				EEF2AC8C18D1270800274775 /* STControlSprite.m */,
+				EEF2AC8D18D1270800274775 /* SKNode+STAdditions.h */,
+				EEF2AC8E18D1270800274775 /* SKNode+STAdditions.m */,
+				EEF2AC8F18D1270800274775 /* SKEmitterNode+STAdditions.h */,
+				EEF2AC9018D1270800274775 /* SKEmitterNode+STAdditions.m */,
+				EEF2AC9118D1270800274775 /* SKScene+STAdditions.h */,
+				EEF2AC9218D1270800274775 /* SKScene+STAdditions.m */,
+				EEF2AC8718D126DD00274775 /* STSpriteKitUtils.h */,
+				EEF2AC7D18D126AC00274775 /* HorizontalParallaxScene.h */,
+				EEF2AC8018D126C700274775 /* STParallaxNode.h */,
+				EEF2AC8118D126C700274775 /* STParallaxNode.m */,
+				EEF2AC8218D126C700274775 /* STParallaxNodeLayer.h */,
+				EEF2AC8318D126C700274775 /* STParallaxNodeLayer.m */,
+				EEF2AC8418D126C700274775 /* STParallaxNodeLayer_private.h */,
+				EEF2AC7E18D126AC00274775 /* HorizontalParallaxScene.m */,
+			);
+			name = STSpriteKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,10 +328,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF2AC9318D1270800274775 /* STControlNode.m in Sources */,
+				EEF2AC9718D1270800274775 /* SKScene+STAdditions.m in Sources */,
+				EEF2AC9618D1270800274775 /* SKEmitterNode+STAdditions.m in Sources */,
+				EEF2AC7F18D126AC00274775 /* HorizontalParallaxScene.m in Sources */,
+				EEF2AC9418D1270800274775 /* STControlSprite.m in Sources */,
+				EEF2AC8618D126C700274775 /* STParallaxNodeLayer.m in Sources */,
+				EEF2AC9518D1270800274775 /* SKNode+STAdditions.m in Sources */,
 				EEF2AC5C18D125AA00274775 /* MyScene.m in Sources */,
 				EEF2AC5918D125AA00274775 /* ViewController.m in Sources */,
 				EEF2AC5018D125AA00274775 /* AppDelegate.m in Sources */,
 				EEF2AC4C18D125AA00274775 /* main.m in Sources */,
+				EEF2AC8518D126C700274775 /* STParallaxNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +560,7 @@
 				EEF2AC7818D125AA00274775 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEF2AC7918D125AA00274775 /* Build configuration list for PBXNativeTarget "BELTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +569,7 @@
 				EEF2AC7B18D125AA00274775 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
