@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D22F95F7-5B07-441F-A78B-BDF82B067CB1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BEL</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0218CE4F-9C44-43EC-941B-DAE683CB319C</key>
+		<string>https://github.com/MaherRezeq/BEL.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BEL.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0218CE4F-9C44-43EC-941B-DAE683CB319C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MaherRezeq/BEL.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0218CE4F-9C44-43EC-941B-DAE683CB319C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0218CE4F-9C44-43EC-941B-DAE683CB319C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BEL</string>
+		</dict>
+	</array>
+</dict>
+</plist>
