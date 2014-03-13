@@ -7,10 +7,11 @@
 //
 
 #import "GameMenuScene.h"
-
+#import "GamePlayScene.h"
 @interface GameMenuScene()
 {
-    SKSpriteNode * _startGameButton;
+    SKSpriteNode *_startGameButton;
+    GamePlayScene *_gamePlayScene;
 
 }
 @end
@@ -56,7 +57,9 @@
     SKNode *node = [self nodeAtPoint:location];
     
     if (node == _startGameButton) {
-        
+        SKTransition *transition = [SKTransition flipHorizontalWithDuration:0.4];
+        _gamePlayScene = [[GamePlayScene alloc] initWithSize:self.size];
+        [self.scene.view presentScene:_gamePlayScene transition:transition];
     }
 
 }
