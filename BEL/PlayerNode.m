@@ -6,17 +6,17 @@
 //  Copyright (c) 2014 NativeNCreative. All rights reserved.
 //
 
-#import "Player.h"
+#import "PlayerNode.h"
 
 static NSString *const playerImageName = @"Spaceship";
 static const CGFloat kDensity = 1.15;
 static const CGFloat kMaxVelocity = 400;
 
-@implementation Player
+@implementation PlayerNode
 
-+ (NCSpriteNode *) makeObject
++ (NCNode *) makeObject
 {
-    NCSpriteNode *spriteNode = [self spriteNodeWithImageNamed:playerImageName];
+    NCNode *spriteNode = [self spriteNodeWithImageNamed:playerImageName];
     spriteNode.size = CGSizeMake(32, 32);
    
     spriteNode.physicsBody = [SKPhysicsBody bodyWithRectangleOfSize:spriteNode.size];

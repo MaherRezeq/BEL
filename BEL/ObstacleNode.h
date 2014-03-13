@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 NativeNCreative. All rights reserved.
 //
 
-#import "NCSpriteNode.h"
+#import "NCNode.h"
 
-@interface Obstacle : NCSpriteNode
+@interface ObstacleNode : NCNode
 
 @end

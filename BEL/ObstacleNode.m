@@ -6,15 +6,15 @@
 //  Copyright (c) 2014 NativeNCreative. All rights reserved.
 //
 
-#import "Obstacle.h"
+#import "ObstacleNode.h"
 
 static NSString *const obstacleImageName = @"Spaceship";
 
-@implementation Obstacle
+@implementation ObstacleNode
 
-+ (NCSpriteNode *) makeObject
++ (NCNode *) makeObject
 {
-    NCSpriteNode *spriteNode = [self createSpriteNode];
+    NCNode *spriteNode = [self createSpriteNode];
     spriteNode.size = [self spriteSize];
     
     spriteNode.physicsBody = [SKPhysicsBody bodyWithRectangleOfSize:spriteNode.size];
@@ -29,7 +29,7 @@ static NSString *const obstacleImageName = @"Spaceship";
     return spriteNode;
 }
 
-+ (NCSpriteNode *)createSpriteNode
++ (NCNode *)createSpriteNode
 {
     return [self spriteNodeWithImageNamed:obstacleImageName];
 }

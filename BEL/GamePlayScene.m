@@ -7,15 +7,15 @@
 //
 
 #import "GamePlayScene.h"
-#import "Player.h"
-#import "Obstacle.h"
-#import "Ground.h"
+#import "PlayerNode.h"
+#import "ObstacleNode.h"
+#import "GroundNode.h"
 static const CGFloat kMaxVelocity = 400;
 static const CGFloat kGravity = -10;
 
 @interface GamePlayScene()
 {
-    NCSpriteNode *_player;
+    NCNode *_player;
 }
 @end
 @implementation GamePlayScene
@@ -30,15 +30,15 @@ static const CGFloat kGravity = -10;
         [self.physicsWorld setGravity:CGVectorMake(0, kGravity)];
         [self.physicsWorld setContactDelegate:self];
         
-        _player =[Player makeObject];
+        _player =[PlayerNode makeObject];
         [_player setPosition:CGPointMake(self.size.width/2, self.size.height/2)];
         [self addChild:_player];
         
-        NCSpriteNode *obstacle =[Obstacle makeObject];
+        NCNode *obstacle =[ObstacleNode makeObject];
         [obstacle setPosition:CGPointMake(self.size.width/1.5, self.size.height/4)];
         [self addChild:obstacle];
         
-        NCSpriteNode *ground =[Ground makeObject];
+        NCNode *ground =[GroundNode makeObject];
         [ground setPosition:CGPointMake(self.size.width/2, CGRectGetHeight(ground.frame)/2)];
         [self addChild:ground];
         

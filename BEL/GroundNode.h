@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 NativeNCreative. All rights reserved.
 //
 
-#import "Obstacle.h"
+#import "ObstacleNode.h"
 
-@interface Ground : Obstacle
+@interface GroundNode : ObstacleNode
 
 @end

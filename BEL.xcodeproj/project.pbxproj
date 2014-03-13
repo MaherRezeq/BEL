@@ -35,10 +35,10 @@
 		EEF2AC9718D1270800274775 /* SKScene+STAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2AC9218D1270800274775 /* SKScene+STAdditions.m */; };
 		EEF2AC9C18D1284E00274775 /* GameMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2AC9B18D1284E00274775 /* GameMenuScene.m */; };
 		EEF2ACA118D12DD700274775 /* GamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2ACA018D12DD700274775 /* GamePlayScene.m */; };
-		EEF2ACA518D12F6100274775 /* NCSpriteNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2ACA418D12F6100274775 /* NCSpriteNode.m */; };
-		EEF2ACA818D1315200274775 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2ACA718D1315200274775 /* Player.m */; };
-		EEF2ACAE18D1352400274775 /* Obstacle.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2ACAD18D1352400274775 /* Obstacle.m */; };
-		EEF2ACB118D139DD00274775 /* Ground.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2ACB018D139DD00274775 /* Ground.m */; };
+		EEF2ACA518D12F6100274775 /* NCNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2ACA418D12F6100274775 /* NCNode.m */; };
+		EEF2ACA818D1315200274775 /* PlayerNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2ACA718D1315200274775 /* PlayerNode.m */; };
+		EEF2ACAE18D1352400274775 /* ObstacleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2ACAD18D1352400274775 /* ObstacleNode.m */; };
+		EEF2ACB118D139DD00274775 /* GroundNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2ACB018D139DD00274775 /* GroundNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,15 +99,15 @@
 		EEF2AC9B18D1284E00274775 /* GameMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMenuScene.m; sourceTree = "<group>"; };
 		EEF2AC9F18D12DD700274775 /* GamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlayScene.h; sourceTree = "<group>"; };
 		EEF2ACA018D12DD700274775 /* GamePlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlayScene.m; sourceTree = "<group>"; };
-		EEF2ACA318D12F6100274775 /* NCSpriteNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCSpriteNode.h; sourceTree = "<group>"; };
-		EEF2ACA418D12F6100274775 /* NCSpriteNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCSpriteNode.m; sourceTree = "<group>"; };
-		EEF2ACA618D1315200274775 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
-		EEF2ACA718D1315200274775 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
-		EEF2ACA918D1330F00274775 /* NCObjectConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCObjectConstants.h; sourceTree = "<group>"; };
-		EEF2ACAC18D1352400274775 /* Obstacle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Obstacle.h; sourceTree = "<group>"; };
-		EEF2ACAD18D1352400274775 /* Obstacle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Obstacle.m; sourceTree = "<group>"; };
-		EEF2ACAF18D139DD00274775 /* Ground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ground.h; sourceTree = "<group>"; };
-		EEF2ACB018D139DD00274775 /* Ground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ground.m; sourceTree = "<group>"; };
+		EEF2ACA318D12F6100274775 /* NCNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCNode.h; sourceTree = "<group>"; };
+		EEF2ACA418D12F6100274775 /* NCNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCNode.m; sourceTree = "<group>"; };
+		EEF2ACA618D1315200274775 /* PlayerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerNode.h; sourceTree = "<group>"; };
+		EEF2ACA718D1315200274775 /* PlayerNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerNode.m; sourceTree = "<group>"; };
+		EEF2ACA918D1330F00274775 /* NCNodeConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCNodeConstants.h; sourceTree = "<group>"; };
+		EEF2ACAC18D1352400274775 /* ObstacleNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObstacleNode.h; sourceTree = "<group>"; };
+		EEF2ACAD18D1352400274775 /* ObstacleNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObstacleNode.m; sourceTree = "<group>"; };
+		EEF2ACAF18D139DD00274775 /* GroundNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroundNode.h; sourceTree = "<group>"; };
+		EEF2ACB018D139DD00274775 /* GroundNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroundNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -280,15 +280,15 @@
 		EEF2ACA218D12F4D00274775 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
-				EEF2ACA918D1330F00274775 /* NCObjectConstants.h */,
-				EEF2ACA318D12F6100274775 /* NCSpriteNode.h */,
-				EEF2ACA418D12F6100274775 /* NCSpriteNode.m */,
-				EEF2ACA618D1315200274775 /* Player.h */,
-				EEF2ACA718D1315200274775 /* Player.m */,
-				EEF2ACAC18D1352400274775 /* Obstacle.h */,
-				EEF2ACAD18D1352400274775 /* Obstacle.m */,
-				EEF2ACAF18D139DD00274775 /* Ground.h */,
-				EEF2ACB018D139DD00274775 /* Ground.m */,
+				EEF2ACA918D1330F00274775 /* NCNodeConstants.h */,
+				EEF2ACA318D12F6100274775 /* NCNode.h */,
+				EEF2ACA418D12F6100274775 /* NCNode.m */,
+				EEF2ACA618D1315200274775 /* PlayerNode.h */,
+				EEF2ACA718D1315200274775 /* PlayerNode.m */,
+				EEF2ACAC18D1352400274775 /* ObstacleNode.h */,
+				EEF2ACAD18D1352400274775 /* ObstacleNode.m */,
+				EEF2ACAF18D139DD00274775 /* GroundNode.h */,
+				EEF2ACB018D139DD00274775 /* GroundNode.m */,
 			);
 			name = Objects;
 			sourceTree = "<group>";
@@ -392,19 +392,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEF2ACA818D1315200274775 /* Player.m in Sources */,
+				EEF2ACA818D1315200274775 /* PlayerNode.m in Sources */,
 				EEF2AC9318D1270800274775 /* STControlNode.m in Sources */,
 				EEF2AC9718D1270800274775 /* SKScene+STAdditions.m in Sources */,
 				EEF2AC9618D1270800274775 /* SKEmitterNode+STAdditions.m in Sources */,
 				EEF2AC7F18D126AC00274775 /* HorizontalParallaxScene.m in Sources */,
 				EEF2AC9418D1270800274775 /* STControlSprite.m in Sources */,
 				EEF2AC9C18D1284E00274775 /* GameMenuScene.m in Sources */,
-				EEF2ACAE18D1352400274775 /* Obstacle.m in Sources */,
+				EEF2ACAE18D1352400274775 /* ObstacleNode.m in Sources */,
 				EEF2AC8618D126C700274775 /* STParallaxNodeLayer.m in Sources */,
-				EEF2ACA518D12F6100274775 /* NCSpriteNode.m in Sources */,
+				EEF2ACA518D12F6100274775 /* NCNode.m in Sources */,
 				EEF2AC9518D1270800274775 /* SKNode+STAdditions.m in Sources */,
 				EEF2AC5C18D125AA00274775 /* MyScene.m in Sources */,
-				EEF2ACB118D139DD00274775 /* Ground.m in Sources */,
+				EEF2ACB118D139DD00274775 /* GroundNode.m in Sources */,
 				EEF2AC5918D125AA00274775 /* ViewController.m in Sources */,
 				EEF2ACA118D12DD700274775 /* GamePlayScene.m in Sources */,
 				EEF2AC5018D125AA00274775 /* AppDelegate.m in Sources */,

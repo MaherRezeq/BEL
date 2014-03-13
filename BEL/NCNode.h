@@ -7,7 +7,7 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
-#import "NCObjectConstants.h"
-@interface NCSpriteNode : SKSpriteNode
-+(NCSpriteNode *) makeObject;
+#import "NCNodeConstants.h"
+@interface NCNode : SKSpriteNode
++(NCNode *) makeObject;
 @end

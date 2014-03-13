@@ -6,14 +6,14 @@
 //  Copyright (c) 2014 NativeNCreative. All rights reserved.
 //
 
-#import "NCSpriteNode.h"
+#import "NCNode.h"
 
-@implementation NCSpriteNode
+@implementation NCNode
 
 // Default implementation
-+ (NCSpriteNode *) makeObject
++ (NCNode *) makeObject
 {
-     NCSpriteNode *spriteNode = [[self allocWithZone:NULL] init];
+     NCNode *spriteNode = [[self allocWithZone:NULL] init];
     return spriteNode;
 }
 

@@ -6,14 +6,14 @@
 //  Copyright (c) 2014 NativeNCreative. All rights reserved.
 //
 
-#import "Ground.h"
+#import "GroundNode.h"
 
 static NSString *const groundImageNamed = @"Spaceship";
 
-@implementation Ground
+@implementation GroundNode
 
 
-+ (NCSpriteNode *)createSpriteNode
++ (NCNode *)createSpriteNode
 {
     return [self spriteNodeWithColor:[SKColor colorWithRed:80.0/255.0 green:120.0/255.0 blue:200.0/255.0 alpha:1] size:[self spriteSize]];
 }
