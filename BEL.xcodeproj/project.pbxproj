@@ -37,6 +37,7 @@
 		EEF2ACA118D12DD700274775 /* GamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2ACA018D12DD700274775 /* GamePlayScene.m */; };
 		EEF2ACA518D12F6100274775 /* NCSpriteNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2ACA418D12F6100274775 /* NCSpriteNode.m */; };
 		EEF2ACA818D1315200274775 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2ACA718D1315200274775 /* Player.m */; };
+		EEF2ACAE18D1352400274775 /* Obstacle.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2ACAD18D1352400274775 /* Obstacle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,8 @@
 		EEF2ACA618D1315200274775 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		EEF2ACA718D1315200274775 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		EEF2ACA918D1330F00274775 /* NCObjectConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCObjectConstants.h; sourceTree = "<group>"; };
+		EEF2ACAC18D1352400274775 /* Obstacle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Obstacle.h; sourceTree = "<group>"; };
+		EEF2ACAD18D1352400274775 /* Obstacle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Obstacle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,6 +282,8 @@
 				EEF2ACA618D1315200274775 /* Player.h */,
 				EEF2ACA718D1315200274775 /* Player.m */,
 				EEF2ACA918D1330F00274775 /* NCObjectConstants.h */,
+				EEF2ACAC18D1352400274775 /* Obstacle.h */,
+				EEF2ACAD18D1352400274775 /* Obstacle.m */,
 			);
 			name = Objects;
 			sourceTree = "<group>";
@@ -389,6 +394,7 @@
 				EEF2AC7F18D126AC00274775 /* HorizontalParallaxScene.m in Sources */,
 				EEF2AC9418D1270800274775 /* STControlSprite.m in Sources */,
 				EEF2AC9C18D1284E00274775 /* GameMenuScene.m in Sources */,
+				EEF2ACAE18D1352400274775 /* Obstacle.m in Sources */,
 				EEF2AC8618D126C700274775 /* STParallaxNodeLayer.m in Sources */,
 				EEF2ACA518D12F6100274775 /* NCSpriteNode.m in Sources */,
 				EEF2AC9518D1270800274775 /* SKNode+STAdditions.m in Sources */,

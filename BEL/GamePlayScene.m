@@ -8,7 +8,9 @@
 
 #import "GamePlayScene.h"
 #import "Player.h"
+#import "Obstacle.h"
 @implementation GamePlayScene
+
 - (id)initWithSize:(CGSize)size
 {
     if (self = [super initWithSize:size]) {
@@ -18,8 +20,12 @@
         
         NCSpriteNode *player =[Player makeObject];
         [player setPosition:CGPointMake(self.size.width/2, self.size.height/2)];
-
         [self addChild:player];
+        
+        NCSpriteNode *obstacle =[Obstacle makeObject];
+        [obstacle setPosition:CGPointMake(self.size.width/2, self.size.height/4)];
+        [self addChild:obstacle];
+        
     }
 
     return self;
