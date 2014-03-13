@@ -35,6 +35,8 @@
 		EEF2AC9718D1270800274775 /* SKScene+STAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2AC9218D1270800274775 /* SKScene+STAdditions.m */; };
 		EEF2AC9C18D1284E00274775 /* GameMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2AC9B18D1284E00274775 /* GameMenuScene.m */; };
 		EEF2ACA118D12DD700274775 /* GamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2ACA018D12DD700274775 /* GamePlayScene.m */; };
+		EEF2ACA518D12F6100274775 /* NCSpriteNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2ACA418D12F6100274775 /* NCSpriteNode.m */; };
+		EEF2ACA818D1315200274775 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2ACA718D1315200274775 /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +97,11 @@
 		EEF2AC9B18D1284E00274775 /* GameMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMenuScene.m; sourceTree = "<group>"; };
 		EEF2AC9F18D12DD700274775 /* GamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlayScene.h; sourceTree = "<group>"; };
 		EEF2ACA018D12DD700274775 /* GamePlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlayScene.m; sourceTree = "<group>"; };
+		EEF2ACA318D12F6100274775 /* NCSpriteNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCSpriteNode.h; sourceTree = "<group>"; };
+		EEF2ACA418D12F6100274775 /* NCSpriteNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCSpriteNode.m; sourceTree = "<group>"; };
+		EEF2ACA618D1315200274775 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		EEF2ACA718D1315200274775 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		EEF2ACA918D1330F00274775 /* NCObjectConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCObjectConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +163,7 @@
 		EEF2AC4518D125AA00274775 /* BEL */ = {
 			isa = PBXGroup;
 			children = (
+				EEF2ACA218D12F4D00274775 /* Objects */,
 				EEF2AC9D18D12DAF00274775 /* GameScene */,
 				EEF2AC7C18D1268700274775 /* 3rdPartyLibs */,
 				EEF2AC4E18D125AA00274775 /* AppDelegate.h */,
@@ -263,6 +271,18 @@
 			name = GamePlayScene;
 			sourceTree = "<group>";
 		};
+		EEF2ACA218D12F4D00274775 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				EEF2ACA318D12F6100274775 /* NCSpriteNode.h */,
+				EEF2ACA418D12F6100274775 /* NCSpriteNode.m */,
+				EEF2ACA618D1315200274775 /* Player.h */,
+				EEF2ACA718D1315200274775 /* Player.m */,
+				EEF2ACA918D1330F00274775 /* NCObjectConstants.h */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -362,6 +382,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF2ACA818D1315200274775 /* Player.m in Sources */,
 				EEF2AC9318D1270800274775 /* STControlNode.m in Sources */,
 				EEF2AC9718D1270800274775 /* SKScene+STAdditions.m in Sources */,
 				EEF2AC9618D1270800274775 /* SKEmitterNode+STAdditions.m in Sources */,
@@ -369,6 +390,7 @@
 				EEF2AC9418D1270800274775 /* STControlSprite.m in Sources */,
 				EEF2AC9C18D1284E00274775 /* GameMenuScene.m in Sources */,
 				EEF2AC8618D126C700274775 /* STParallaxNodeLayer.m in Sources */,
+				EEF2ACA518D12F6100274775 /* NCSpriteNode.m in Sources */,
 				EEF2AC9518D1270800274775 /* SKNode+STAdditions.m in Sources */,
 				EEF2AC5C18D125AA00274775 /* MyScene.m in Sources */,
 				EEF2AC5918D125AA00274775 /* ViewController.m in Sources */,
