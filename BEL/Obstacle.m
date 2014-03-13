@@ -8,24 +8,44 @@
 
 #import "Obstacle.h"
 
-static NSString *const playerImageName = @"Spaceship";
+static NSString *const obstacleImageName = @"Spaceship";
 
 @implementation Obstacle
 
 + (NCSpriteNode *) makeObject
 {
-    NCSpriteNode *spriteNode = [self spriteNodeWithImageNamed:playerImageName];
-    spriteNode.size = CGSizeMake(32, 32);
+    NCSpriteNode *spriteNode = [self createSpriteNode];
+    spriteNode.size = [self spriteSize];
     
     spriteNode.physicsBody = [SKPhysicsBody bodyWithRectangleOfSize:spriteNode.size];
     [spriteNode.physicsBody setAffectedByGravity:NO];
     [spriteNode.physicsBody setDynamic:NO];
     
     // Physics properties
-    [spriteNode.physicsBody setCategoryBitMask:kObstacleCategory];
-    [spriteNode.physicsBody setCollisionBitMask:kPlayerCategory];
+    [spriteNode.physicsBody setCategoryBitMask:[self categoryBitMask]];
+    [spriteNode.physicsBody setCollisionBitMask:[self collisionBitMask]];
     
     
     return spriteNode;
+}
+
++ (NCSpriteNode *)createSpriteNode
+{
+    return [self spriteNodeWithImageNamed:obstacleImageName];
+}
+
++ (NSInteger)categoryBitMask
+{
+    return kObstacleCategory;
+}
+
++ (NSInteger)collisionBitMask
+{
+    return kPlayerCategory;
+}
+
++ (CGSize) spriteSize
+{
+    return CGSizeMake(32, 32);
 }
 @end
