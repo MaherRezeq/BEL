@@ -33,6 +33,7 @@
 		EEF2AC9518D1270800274775 /* SKNode+STAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2AC8E18D1270800274775 /* SKNode+STAdditions.m */; };
 		EEF2AC9618D1270800274775 /* SKEmitterNode+STAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2AC9018D1270800274775 /* SKEmitterNode+STAdditions.m */; };
 		EEF2AC9718D1270800274775 /* SKScene+STAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2AC9218D1270800274775 /* SKScene+STAdditions.m */; };
+		EEF2AC9C18D1284E00274775 /* GameMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2AC9B18D1284E00274775 /* GameMenuScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,8 @@
 		EEF2AC9018D1270800274775 /* SKEmitterNode+STAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKEmitterNode+STAdditions.m"; sourceTree = "<group>"; };
 		EEF2AC9118D1270800274775 /* SKScene+STAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKScene+STAdditions.h"; sourceTree = "<group>"; };
 		EEF2AC9218D1270800274775 /* SKScene+STAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKScene+STAdditions.m"; sourceTree = "<group>"; };
+		EEF2AC9A18D1284E00274775 /* GameMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMenuScene.h; sourceTree = "<group>"; };
+		EEF2AC9B18D1284E00274775 /* GameMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMenuScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +153,7 @@
 		EEF2AC4518D125AA00274775 /* BEL */ = {
 			isa = PBXGroup;
 			children = (
+				EEF2AC9918D1282C00274775 /* GameMenuScene */,
 				EEF2AC7C18D1268700274775 /* 3rdPartyLibs */,
 				EEF2AC4E18D125AA00274775 /* AppDelegate.h */,
 				EEF2AC4F18D125AA00274775 /* AppDelegate.m */,
@@ -227,6 +231,15 @@
 				EEF2AC7E18D126AC00274775 /* HorizontalParallaxScene.m */,
 			);
 			name = STSpriteKit;
+			sourceTree = "<group>";
+		};
+		EEF2AC9918D1282C00274775 /* GameMenuScene */ = {
+			isa = PBXGroup;
+			children = (
+				EEF2AC9A18D1284E00274775 /* GameMenuScene.h */,
+				EEF2AC9B18D1284E00274775 /* GameMenuScene.m */,
+			);
+			name = GameMenuScene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,6 +346,7 @@
 				EEF2AC9618D1270800274775 /* SKEmitterNode+STAdditions.m in Sources */,
 				EEF2AC7F18D126AC00274775 /* HorizontalParallaxScene.m in Sources */,
 				EEF2AC9418D1270800274775 /* STControlSprite.m in Sources */,
+				EEF2AC9C18D1284E00274775 /* GameMenuScene.m in Sources */,
 				EEF2AC8618D126C700274775 /* STParallaxNodeLayer.m in Sources */,
 				EEF2AC9518D1270800274775 /* SKNode+STAdditions.m in Sources */,
 				EEF2AC5C18D125AA00274775 /* MyScene.m in Sources */,
